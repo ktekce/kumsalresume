@@ -1,0 +1,122 @@
+
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: url(../images/winterMountain.jpg) no-repeat fixed 50%;
+  background-size: cover;
+}
+
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+h1, h3 {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-family: "Pacifico", cursive;
+  color : #2980b9;
+}
+a {
+  color: #2980b9;
+}
+
+section,
+footer {
+  padding: 50px 0;
+}
+.content-wrap {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+.download {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #2980b9;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+.download:hover {
+  color: #111;
+}
+
+
+/* HEADER
+----------*/
+header {
+  text-align: center;
+  padding: 200px 0;
+}
+header h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 80px;
+  text-transform: none;
+  margin: 0;
+}
+header h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin: 0;
+  color: #111;
+}
+
+
+
+
+
+.profile {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fefefe;
+
+}
+.profile .content-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.profile img {
+  border-radius: 50%; /* makes profile image a perfect circle */
+}
+
+
+.work {
+  background: #fefefe;
+}
+.item {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.item:first-of-type {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+
+.skills {
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ),
+            url(../images/lakeTrees.jpg);
+background-size: cover;
+color: #fefefe;
+padding-bottom: 300px;
+font-size: 20px;
+}
+.education {
+  background: #fefefe;
+}
+.contact {
+  background: #111111;
+  color: #fefefe;
+  text-align: center;
+}
